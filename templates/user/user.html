@@ -1,0 +1,7 @@
+{% if user_list %}
+    <ul>
+        {% for user in user_list %}
+            <li>{{ user.user_email }}</li>
+        {% endfor %}
+    </ul>
+{% endif %}
